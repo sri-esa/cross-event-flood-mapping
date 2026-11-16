@@ -1,0 +1,10 @@
+Experiment,Test_Set,Status,IoU,Precision,Recall,F1,GT_Area_km2,Pred_Area_km2,Specificity,Accuracy
+E0_Otsu_Sen1Floods11,Sen1Floods11 Test (88),Final,0.2364,0.25627,0.75297,0.3824,251.6075,739.2644,0.69372,0.701
+E1_UNet_Sen1Floods11,Sen1Floods11 Test (88),Final,0.63605,0.79409,0.76168,0.77755,251.5008,,0.97229,0.94638
+E0_Otsu_Bengal_All40,Bengal All (40),Provisional (raw v1 labels),0.18918,0.19929,0.78856,0.31817,20.4207,80.8031,0.73234,0.73672
+E2_ZeroShot_Bengal_All40,Bengal All (40),Provisional (raw v1 labels),0.15513,0.19595,0.42682,0.26859,20.4207,44.4801,0.85204,0.81892
+E0_Otsu_Bengal_Test13,Bengal Spatial Test (13),Provisional (raw v1 labels),0.20174,0.21594,0.7541,0.33574,7.7979,27.2313,0.72414,0.72689
+E2_ZeroShot_Bengal_Test13,Bengal Spatial Test (13),Provisional (raw v1 labels),0.13201,0.18595,0.31275,0.23323,7.7979,13.1151,0.86206,0.81178
+E3_FineTuned_N5,Bengal Spatial Test (13),Provisional (raw v1 labels),0.22471,0.30986,0.44988,0.36697,7.7979,11.3216,0.89905,0.85794
+E3_FineTuned_N10,Bengal Spatial Test (13),Provisional (raw v1 labels),0.24169,0.31121,0.51967,0.38929,7.7979,13.0211,0.88412,0.85076
+E3_FineTuned_N20,Bengal Spatial Test (13),Provisional (raw v1 labels),0.27074,0.33289,0.59186,0.42612,7.7979,13.8642,0.8805,0.85408

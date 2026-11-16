@@ -1,0 +1,7 @@
+Landcover_Stratum,Landcover_Source,Test_Chips,E0_Otsu_IoU,E0_Otsu_F1,E2_ZeroShot_IoU,E2_ZeroShot_Precision,E2_ZeroShot_Recall,E2_ZeroShot_F1,E3_N20_IoU,E3_N20_Precision,E3_N20_Recall,E3_N20_F1
+Chip_Regime_flood-rich,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),6,0.36225,0.53184,0.18434,0.33887,0.28788,0.3113,0.32706,0.42755,0.58184,0.4929
+Chip_Regime_ambiguous,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),3,0.07108,0.13272,0.13075,0.14198,0.62311,0.23126,0.11975,0.12562,0.71918,0.21388
+Chip_Regime_negative-dry,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),3,3e-05,6e-05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chip_Regime_negative-water,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Non_Permanent_Water_Land_Cropland (Band3==0),Provisional: Bengal Label Band 3 (already_water) + raw v1 labels,13,,,0.20188,0.36285,0.31275,0.33594,0.32174,0.41348,0.59186,0.48684
+Permanent_Water_Rivers_Ponds (Band3==1),Provisional: Bengal Label Band 3 (already_water) + raw v1 labels,13,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
