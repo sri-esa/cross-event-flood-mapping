@@ -1,7 +1,7 @@
 Landcover_Stratum,Landcover_Source,Test_Chips,E0_Otsu_IoU,E0_Otsu_F1,E2_ZeroShot_IoU,E2_ZeroShot_Precision,E2_ZeroShot_Recall,E2_ZeroShot_F1,E3_N20_IoU,E3_N20_Precision,E3_N20_Recall,E3_N20_F1
-Chip_Regime_flood-rich,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),6,0.36225,0.53184,0.18434,0.33887,0.28788,0.3113,0.32706,0.42755,0.58184,0.4929
-Chip_Regime_ambiguous,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),3,0.07108,0.13272,0.13075,0.14198,0.62311,0.23126,0.11975,0.12562,0.71918,0.21388
-Chip_Regime_negative-dry,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),3,3e-05,6e-05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-Chip_Regime_negative-water,Provisional: Bengal 5-band labels & chip_manifest stratification (awaiting ESA WorldCover raster export),1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-Non_Permanent_Water_Land_Cropland (Band3==0),Provisional: Bengal Label Band 3 (already_water) + raw v1 labels,13,,,0.20188,0.36285,0.31275,0.33594,0.32174,0.41348,0.59186,0.48684
-Permanent_Water_Rivers_Ponds (Band3==1),Provisional: Bengal Label Band 3 (already_water) + raw v1 labels,13,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chip_Regime_flood-rich,Final: QGIS-verified v2 ground-truth labels & chip_manifest stratification,6,0.30383,0.46605,0.18914,0.33175,0.30554,0.31811,0.30541,0.37972,0.60945,0.46791
+Chip_Regime_ambiguous,Final: QGIS-verified v2 ground-truth labels & chip_manifest stratification,3,0.01509,0.02974,0.02771,0.02904,0.37583,0.05392,0.01915,0.01953,0.49833,0.03758
+Chip_Regime_negative-dry,Final: QGIS-verified v2 ground-truth labels & chip_manifest stratification,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chip_Regime_negative-water,Final: QGIS-verified v2 ground-truth labels & chip_manifest stratification,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Non_Permanent_Water_Land_Cropland (Band3==0),Final: Bengal Band 3 (already_water) + QGIS-verified v2 ground-truth labels,13,,,0.19341,0.34742,0.30378,0.32414,0.27657,0.33867,0.60132,0.4333
+Permanent_Water_Rivers_Ponds (Band3==1),Final: Bengal Band 3 (already_water) + QGIS-verified v2 ground-truth labels,13,,,0.0083,0.00837,0.48521,0.01646,0.03831,0.03838,0.95564,0.07379

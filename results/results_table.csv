@@ -1,10 +1,10 @@
 Experiment,Test_Set,Status,IoU,Precision,Recall,F1,GT_Area_km2,Pred_Area_km2,Specificity,Accuracy
 E0_Otsu_Sen1Floods11,Sen1Floods11 Test (88),Final,0.2364,0.25627,0.75297,0.3824,251.6075,739.2644,0.69372,0.701
 E1_UNet_Sen1Floods11,Sen1Floods11 Test (88),Final,0.63605,0.79409,0.76168,0.77755,251.5008,,0.97229,0.94638
-E0_Otsu_Bengal_All40,Bengal All (40),Provisional (raw v1 labels),0.18918,0.19929,0.78856,0.31817,20.4207,80.8031,0.73234,0.73672
-E2_ZeroShot_Bengal_All40,Bengal All (40),Provisional (raw v1 labels),0.15513,0.19595,0.42682,0.26859,20.4207,44.4801,0.85204,0.81892
-E0_Otsu_Bengal_Test13,Bengal Spatial Test (13),Provisional (raw v1 labels),0.20174,0.21594,0.7541,0.33574,7.7979,27.2313,0.72414,0.72689
-E2_ZeroShot_Bengal_Test13,Bengal Spatial Test (13),Provisional (raw v1 labels),0.13201,0.18595,0.31275,0.23323,7.7979,13.1151,0.86206,0.81178
-E3_FineTuned_N5,Bengal Spatial Test (13),Provisional (raw v1 labels),0.22471,0.30986,0.44988,0.36697,7.7979,11.3216,0.89905,0.85794
-E3_FineTuned_N10,Bengal Spatial Test (13),Provisional (raw v1 labels),0.24169,0.31121,0.51967,0.38929,7.7979,13.0211,0.88412,0.85076
-E3_FineTuned_N20,Bengal Spatial Test (13),Provisional (raw v1 labels),0.27074,0.33289,0.59186,0.42612,7.7979,13.8642,0.8805,0.85408
+E0_Otsu_Bengal_All40,Bengal All (40),Final (QGIS-verified v2 labels),0.1706,0.17904,0.78358,0.29148,18.4116,80.58,0.72771,0.73165
+E2_ZeroShot_Bengal_All40,Bengal All (40),Final (QGIS-verified v2 labels),0.1505,0.18698,0.43544,0.26162,18.4116,42.8767,0.85652,0.82686
+E0_Otsu_Bengal_Test13,Bengal Spatial Test (13),Final (QGIS-verified v2 labels),0.1573,0.16768,0.71752,0.27183,6.3555,27.1958,0.71096,0.71146
+E2_ZeroShot_Bengal_Test13,Bengal Spatial Test (13),Final (QGIS-verified v2 labels),0.12085,0.16622,0.30687,0.21564,6.3555,11.733,0.87508,0.83243
+E3_FineTuned_N5,Bengal Spatial Test (13),Final (QGIS-verified v2 labels),0.20135,0.27999,0.41753,0.3352,6.3555,9.4774,0.91287,0.87568
+E3_FineTuned_N10,Bengal Spatial Test (13),Final (QGIS-verified v2 labels),0.21984,0.27795,0.51256,0.36044,6.3555,11.7202,0.89194,0.86346
+E3_FineTuned_N20,Bengal Spatial Test (13),Final (QGIS-verified v2 labels),0.23707,0.27999,0.60735,0.38328,6.3555,13.7864,0.87325,0.85329
