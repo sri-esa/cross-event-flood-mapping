@@ -1,6 +1,8 @@
 Experiment,Test_Set,Status,IoU,Precision,Recall,F1,GT_Area_km2,Pred_Area_km2,Specificity,Accuracy
 E0_Otsu_Sen1Floods11,Sen1Floods11 Test (88),Final,0.2364,0.25627,0.75297,0.3824,251.6075,739.2644,0.69372,0.701
-E1_UNet_Sen1Floods11,Sen1Floods11 Test (88),Final,0.63605,0.79409,0.76168,0.77755,251.5008,,0.97229,0.94638
+E1_UNet_Sen1Floods11,Sen1Floods11 Test (88),Final,0.63605,0.79409,0.76168,0.77755,251.5008,241.2355,0.97229,0.94638
+E0_Otsu_Bolivia,Sen1Floods11 Bolivia (15),Final,0.38445,0.40637,0.87698,0.55538,45.1901,97.5241,0.75598,0.77534
+E1_UNet_Bolivia,Sen1Floods11 Bolivia (15),Final,0.62142,0.83452,0.70876,0.76652,45.1901,38.3799,0.97323,0.93092
 E0_Otsu_Bengal_All40,Bengal All (40),Final (QGIS-verified v2 labels),0.1706,0.17904,0.78358,0.29148,18.4116,80.58,0.72771,0.73165
 E2_ZeroShot_Bengal_All40,Bengal All (40),Final (QGIS-verified v2 labels),0.1505,0.18698,0.43544,0.26162,18.4116,42.8767,0.85652,0.82686
 E0_Otsu_Bengal_Test13,Bengal Spatial Test (13),Final (QGIS-verified v2 labels),0.1573,0.16768,0.71752,0.27183,6.3555,27.1958,0.71096,0.71146
